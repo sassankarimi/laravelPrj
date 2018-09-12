@@ -29,6 +29,8 @@ class EmailBanNotification implements ShouldQueue
     public function handle(UserWasBanned $event)
     {
         var_dump('notify'.$event->user->name.'they have been ...!');
+
+
         //
     }
 }
